@@ -3,3 +3,4 @@ tensorflow
 scipy
 opencv-python
 keras
+Pillow

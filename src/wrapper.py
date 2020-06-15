@@ -8,4 +8,4 @@ if __name__ == '__main__':
     database, labels = data.get_databases()
     
     model = DementiaAnalysisModel()
-    model.train(database, labels, 30)
+    model.train(database, labels, 100)

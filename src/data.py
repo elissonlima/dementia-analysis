@@ -4,8 +4,8 @@ import numpy as np
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT_PATH = os.path.dirname(CURRENT_PATH)
-CORRECT_IMG_PATH = os.path.join(PROJECT_ROOT_PATH, "images", "correct")
-INCORRECT_IMG_PATH  = os.path.join(PROJECT_ROOT_PATH, "images", "incorrect")
+CORRECT_IMG_PATH = os.path.join(PROJECT_ROOT_PATH, "images", "processed_correct")
+INCORRECT_IMG_PATH  = os.path.join(PROJECT_ROOT_PATH, "images", "processed_incorrect")
 
 def get_databases():
 
